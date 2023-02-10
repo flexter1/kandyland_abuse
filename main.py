@@ -163,13 +163,13 @@ class Abuser:
             logger.info('Решил капчу')
             self.browser.find_element(By.CSS_SELECTOR,'#react-root > div > div > div.css-1dbjc4n.r-13qz1uu.r-417010 > main > div > div > div.css-1dbjc4n.r-1gluylu > div > div > div.css-1dbjc4n.r-1awozwy.r-6koalj.r-q4m81j > div.css-1dbjc4n.r-11rk87y.r-1ur9v65 > div > div > span > span').click()
             self.browser.implicitly_wait(15)
-            sleep(5)
+            sleep(10)
 
             self.browser.find_element(By.CSS_SELECTOR,'#__next > div.hide-overflow > div > div > a.twitter-button.follow-twitter > div.twitter-referral-button-text').click()
             self.browser.implicitly_wait(15)
-            sleep(2)
+            sleep(10)
             self.browser.switch_to.window(self.browser.window_handles[1])
-            sleep(3)
+            sleep(10)
             self.browser.find_element(By.CSS_SELECTOR,'#__next > div.hide-overflow > div > div > div.box-cnt > div > div.box-bonus-button > a > div.referral-button-text-inner').click()
             self.browser.switch_to.window(self.browser.window_handles[1])
             if self.browser.page_source.find("You've successfully entered the raffle")!=-1:
