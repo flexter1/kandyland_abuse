@@ -25,7 +25,9 @@ pip install -r requirements.txt
 ```
 
 Enter your `API_KEY`, `referral link` and `processes count` in `config file`.
+
 Add your seeds in `seeds.txt` file
+
 Add your twitter accounts with in `twitter.txt` like this format:
 ```
 login:password:phone
