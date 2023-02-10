@@ -31,6 +31,8 @@ Add your twitter accounts with in `twitter.txt` like this format:
 login:password:phone
 ```
 
+All successfully registered accounts automatically save in `success.txt`
+
 ## WARNING! DO NOT ENTER MORE THAN 5 PROCESSES, OTHERWISE SELENIUM CAN START TO WORK UNCORRECTLY
 
 ## Developers
