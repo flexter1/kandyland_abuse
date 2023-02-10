@@ -3,9 +3,7 @@ Kandyland NFT form abuse
 
 ## Description
 
-This software helps you registering your wallets with twitters to Kandyland form (supports Selenium)
-
-## Features
+This software helps you to register your wallets with twitters in Kandyland form (supports Selenium)
 
 ## Installation
 
